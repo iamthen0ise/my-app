@@ -29,15 +29,13 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun openUrlInWebView(view: android.view.View) {
-        val url =
-            "bank100000000004://qr.nspk.ru/AD10007B7EIV94BM8088G31DDILIJ6SI?type=02&bank=100000000004&sum=1000&cur=RUB&crc=6055"
+        val url = "<url>"
         webView.loadUrl(url)
         webView.visibility = android.view.View.VISIBLE
     }
 
     fun openUrlInWebViewWithIntent(view: android.view.View) {
-        val url =
-            "bank100000000004://qr.nspk.ru/AD10007B7EIV94BM8088G31DDILIJ6SI?type=02&bank=100000000004&sum=1000&cur=RUB&crc=6055"
+        val url = "<url>"
 
         val uri = Uri.parse(url)
 
